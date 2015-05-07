@@ -134,4 +134,13 @@ public class callVideoHandler extends ActionBarActivity implements View.OnClickL
             Toast.makeText(this, "Portrait", Toast.LENGTH_SHORT).show();
         }
     }
+    
+    /**
+     * stop the media player when back is press
+     */
+    @Override
+    public void onBackPressed() {
+        videoHandler.deletePlayer();
+        super.onBackPressed();
+    }
 }
