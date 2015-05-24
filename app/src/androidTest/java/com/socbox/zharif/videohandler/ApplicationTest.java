@@ -15,6 +15,50 @@ import android.widget.SeekBar;
 import android.widget.TextView;
 
 /**
+ *
+ * 
+ * Claritas: ‘Clarity through innovation’
+ *
+ * Unit Test Script
+ *
+ * Project: SocBox
+ *
+ * Module: VideoHandler
+ *
+ * Test Script Name: ApplicationTest.java
+ *
+ * Associated Code File Name: VideoHandler.java
+ *
+ * Description: This class tests the functionality of the streaming the video and the
+ * requirements found in the User Stories and Design Specification.
+ *
+ * Initial Authors: Muhammad Zharif Hadi
+ *                  Davide Reteif
+ *
+ * Change History:
+ * Version: 0.1
+ *
+ * Author: Muhammad Zharif Hadi
+ *
+ *
+ * Change: Created original version
+ *
+ * Date: 20/03/15
+ *
+ * User Story Traceability:
+ *
+ * Tag(s): D/VMF – Entire Module
+ *
+ * Requirements in not covered by test script:
+ * D/VMF/01-17/01:
+ *
+ * Justification: Not able to be unit tested. HMI testing complete
+ *
+ *
+ *
+ */
+
+/**
  * <a href="http://d.android.com/tools/testing/testing_android.html">Testing Fundamentals</a>
  */
 public class ApplicationTest extends ActivityInstrumentationTestCase2<callVideoHandler> {
